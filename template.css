@@ -1,0 +1,252 @@
+body{
+
+ 
+
+}
+
+.hero-image{
+
+               background: url("globe.png") no-repeat center center;
+
+                height: 900px;
+
+                background-size: auto;
+
+                animation: fadein 2s;
+
+                position: relative;
+
+                padding-top: 5%;
+        
+
+
+}
+
+
+.space{
+
+                height: 15%;
+
+                width: 100%;
+
+                position: absolute;
+
+}
+
+ 
+
+ 
+
+@keyframes fadein{
+
+                from { opacity: 0; }
+
+                to { opacity: 1; }
+
+}
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+
+  background-color: #f2f2f2;
+
+  overflow: hidden;
+
+}
+
+ 
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+
+  float: left;
+
+  color: black;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+  font-size: 17px;
+
+}
+
+ 
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+
+  background-color: lightblue;
+
+  color: black;
+
+}
+
+ 
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+
+  background-color: #4CAF50;
+
+  color: white;
+
+}
+
+.article1{
+
+                width: 100%;
+
+                height: 33%;
+
+               
+
+}
+
+.article2{
+    
+    width: 100%;
+    height: 33%;
+}
+
+.article3{
+    width: 100%;
+    height: 33%;
+}
+ 
+
+.article1:hover{
+
+               background-color: white;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                #clip-path: polygon(88% 0%, 87% 0%, 84% 10%, 80% 25%, 75.5% 50%, 72% 75%, 70% 100%, 0% 100%, 0% 0%);
+                opacity: 0.95;
+
+}
+
+ 
+
+.article2:hover{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.95;
+
+}
+
+.article3:hover{
+     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.95;
+    
+}
+ 
+
+.left{
+
+border-collapse: collapse;
+
+border: none;
+
+width: 25%;
+
+height: 100%;
+
+padding: 25px 50px 75px 100px;
+
+float: left;
+ 
+
+}
+
+.left-borders{
+    
+    #border-bottom: 2px solid black;
+    width: 20%;
+    height: 100%;
+    float: left;
+    
+}
+
+
+.right-borders{
+    
+    #border-bottom: 2px solid black;
+    width: 20%;
+    height: 100%;
+    float: right;
+    
+}
+ .right{
+    align-content: flex-end;
+    border-collapse: collapse;
+    border: none;
+    width: 20%;
+    height: 100%;
+    padding: 25px 50px 75px 100px;
+    float: right;
+    
+}
+
+.thleft{
+
+text-align: right;
+
+background-color: #f2f2f2;
+
+width: 15%;
+
+padding: 5px;
+
+}
+
+.thright {
+    text-align: left;
+    background-color: #f2f2f2;
+    width: 15%;
+}
+
+table th:hover{
+
+background-color: lightblue;
+
+opacity: 60%;
+
+}
+
+.tdright{
+    text-align:right;
+    
+}
+
+.green {
+    
+    background-color: lightgreen;
+    
+}
+
+.red {
+    
+    background-color: lightcoral;
+}
+ 
+
+td{
+
+padding: 5px;
+
+}
+
+ 
+
+h1 {
+
+text-align: center;
+
+}
+
